@@ -221,7 +221,7 @@ root.config(bg="gray")
 root.geometry('900x500+100+100')
 root.resizable(False,False)
 try:
-    con=pymysql.connect(host="localhost",user= "taskassigner",password="password",database='taskassigner')
+    con=pymysql.connect(host="######",user= "###########",password="#######",database='taskassigner')
     mycursor=con.cursor()
     print("connected")
 except:
